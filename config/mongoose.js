@@ -2,7 +2,8 @@
 const mongoose = require('mongoose');
 require('dotenv').config()
 //connect to the db
-mongoose.connect(`mongodb://127.0.0.1:27017/CSV-Upload`);
+//mongoose.connect(`mongodb://127.0.0.1:27017/CSV-Upload`);
+mongoose.connect(process.env.mongooseUrl);
 //require connection
 const db = mongoose.connection;
 
