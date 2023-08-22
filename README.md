@@ -7,3 +7,7 @@ The CSV Upload project is a web application that allows users to upload and view
 3) Simple UI
 
 **Demo**: https://csv-upload-j0y3.onrender.com
+
+## Setup
+
+Run `npm install` to install required dependencies
